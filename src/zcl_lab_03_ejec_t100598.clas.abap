@@ -17,7 +17,7 @@ CLASS zcl_lab_03_ejec_t100598 IMPLEMENTATION.
    DATA: lt_organization TYPE STANDARD TABLE OF REF TO zcl_lab_29_organization,
          lo_organization TYPE REF TO   zcl_lab_29_organization,
          lo_germany      TYPE REF TO   zcl_lab_30_org_germany,
-         lo_france       TYPE REF TO   zcl_lab_30_org_france.
+         lo_france       TYPE REF TO   zcl_lab_31_org_france.
    lo_germany = NEW #(  ).
    APPEND lo_germany TO  lt_organization.
    lo_france = NEW #(  ).
