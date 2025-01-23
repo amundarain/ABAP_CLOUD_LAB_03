@@ -1,0 +1,19 @@
+CLASS zcl_lab_29_organization DEFINITION
+  PUBLIC
+
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  METHODS get_location RETURNING VALUE(rv_location) TYPE STRING.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_lab_29_organization IMPLEMENTATION.
+  METHOD get_location.
+
+  ENDMETHOD.
+
+ENDCLASS.
