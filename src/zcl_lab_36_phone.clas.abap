@@ -1,0 +1,19 @@
+CLASS zcl_lab_36_phone DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  DATA phone TYPE REF TO zcl_lab_37_screen.
+  METHODS CONSTRUCTOR IMPORTING ro_phone TYPE REF TO zcl_lab_37_screen.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+
+ENDCLASS.
+
+CLASS zcl_lab_36_phone IMPLEMENTATION.
+  METHOD constructor.
+   me->phone = ro_phone.
+  ENDMETHOD.
+
+ENDCLASS.

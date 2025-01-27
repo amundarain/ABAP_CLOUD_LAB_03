@@ -10,7 +10,6 @@ CLASS zcl_lab_29_organization DEFINITION
 ENDCLASS.
 
 
-
 CLASS zcl_lab_29_organization IMPLEMENTATION.
   METHOD get_location.
 

@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_LAB_30_ORG_FRANCE</CLSNAME>
+    <CLSNAME>ZCL_LAB_46_MOBILE_OPERATOR</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>LAB 03 Polimorfismo con clases</DESCRIPT>
+    <DESCRIPT>Eventos estáticos</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
