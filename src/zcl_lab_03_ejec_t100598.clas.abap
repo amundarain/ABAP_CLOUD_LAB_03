@@ -83,16 +83,16 @@ CLASS zcl_lab_03_ejec_t100598 IMPLEMENTATION.
 * out->write( lo_budget->get_budget(  ) ).
 
  "7 Asignar instancias a la clase genérica Object
- DATA go_obj_organization TYPE REF TO OBJECT.
- go_obj_organization = NEW zcl_lab_41_organization(  ).
-
- DATA(lv_set_headquarters) = 'SET_HEADQUARTERS'.
- DATA(lv_get_headquarters) = 'GET_HEADQUARTERS'.
- DATA lv_receipt TYPE STRING.
- CALL METHOD go_obj_organization->(lv_set_headquarters) EXPORTING iv_headquarters = 'Head Test'.
- CALL METHOD go_obj_organization->(lv_get_headquarters) IMPORTING ev_headquarters = lv_receipt .
-
- out->write( lv_receipt ).
+* DATA go_obj_organization TYPE REF TO OBJECT.
+* go_obj_organization = NEW zcl_lab_41_organization(  ).
+*
+* DATA(lv_set_headquarters) = 'SET_HEADQUARTERS'.
+* DATA(lv_get_headquarters) = 'GET_HEADQUARTERS'.
+* DATA lv_receipt TYPE STRING.
+* CALL METHOD go_obj_organization->(lv_set_headquarters) EXPORTING iv_headquarters = 'Head Test'.
+* CALL METHOD go_obj_organization->(lv_get_headquarters) IMPORTING ev_headquarters = lv_receipt .
+*
+* out->write( lv_receipt ).
 "**********************************EVENTOS ********************************
 
    "Eventos en orientación a objetos
