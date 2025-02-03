@@ -148,10 +148,9 @@ CLASS zcl_lab_03_ejec_t100598 IMPLEMENTATION.
 *   go_employe_id_3->notify_employee(  ).
 *   out->write( go_payroll_paid->log ).
 
-
-
-
-
+  "++++++++++++++++++++++++++++Class-relevant Local Types******************************************"
+  "1. Class-relevant Local Types
+  DATA(lo_work_zone) = NEW zcl_lab_50_work_zone(  ).
 
   ENDMETHOD.
 
